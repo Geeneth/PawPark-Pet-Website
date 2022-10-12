@@ -3,7 +3,7 @@ An academic web development project. A website that lets users give away and ado
 The project allows users to create an account and log in. Then the user will be given the opputunity to give away a pet or view any to adopt.
 The project was built using HTML, CSS, JavaScript and PHP.
 
-<sub>Test Login:<sub>
+<sub>Test Login:<sub></br>
 <sub>Username: admin</sub>
 <sub>Password: admin123</sub>
 

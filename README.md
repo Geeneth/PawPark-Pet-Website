@@ -3,9 +3,9 @@ An academic web development project. A website that lets users give away and ado
 The project allows users to create an account and log in. Then the user will be given the opputunity to give away a pet or view any to adopt.
 The project was built using HTML, CSS, JavaScript and PHP.
 
-<sub>Test Login:<sub></br>
-<sub>Username: admin</sub>
-<sub>Password: admin123</sub>
+<strong>Test Login:<strong></br>
+Username: admin
+Password: admin123
 
 <img width="1430" alt="Screen Shot 2022-10-12 at 01 59 00" src="https://user-images.githubusercontent.com/44797747/195261871-f530ac70-d42e-48dc-be2b-2159fa7a5624.png">
 <sub>index.php</sub>

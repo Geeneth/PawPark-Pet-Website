@@ -1,0 +1,238 @@
+/* Geeneth Kulatunge */
+/* 40195350 */
+/* Assignment 2 Question 4 */
+
+/* importing the fonts I have used for my website */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+
+body {
+  background-color: #003566;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* styling for the header of each page */
+#header {
+  padding-left: 40px;
+  background-color: #003566;
+  color: #ffc300;
+  height: 10%;
+  font-family: "League Spartan", sans-serif;
+  height: 10%;
+}
+
+#date {
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+
+#account-button {
+  position: absolute;
+  right: 70px;
+  top: 20px;
+}
+
+.name-header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.login-warning-container{
+  display: flex;
+justify-content: center;
+}
+
+#login-warning{
+  text-align: center;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: #001d3d solid 2px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+}
+
+/* styling for the side-bar of each page */
+#side-bar-container {
+  font-family: "League Spartan", sans-serif;
+  background-color: #003566;
+  color: #ffc300;
+  height: 90%;
+  position: absolute;
+  left: 0.6;
+  top: 10%;
+  z-index: -2;
+}
+
+.side-bar ul {
+  list-style-type: none;
+  width: 70%;
+}
+
+.side-bar ul li {
+  text-decoration: none;
+  padding: 25px 25px 25px 25px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.side-bar ul a {
+  text-decoration: none;
+  color: #001d3d;
+}
+
+.side-bar ul li:hover {
+  background-color: #ffc300;
+  color: #003566;
+}
+
+/* styling for the content-area of each page */
+.content-area {
+  font-family: "League Spartan", sans-serif;
+  background-color: white;
+  color: #003566;
+  height: 70%;
+  width: 75%;
+  position: absolute;
+  left: 20%;
+  padding-left: 20px;
+  top: 90px;
+  overflow: scroll;
+}
+
+.content-page-text {
+  padding: 2px 20px;
+}
+
+.pet-footer-image {
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* styling for the footer elements */
+.footer-content {
+  font-family: "League Spartan", sans-serif;
+  color: #003566;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 40px;
+}
+
+.footer-content a {
+  position: absolute;
+  bottom: 30px;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}
+
+#footer-grass {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 110%;
+  height: 15%;
+  z-index: -1;
+}
+
+/* additional styling for specific pictures */
+#browse-dog {
+  width: 12%;
+}
+#cat-footer {
+  width: 20%;
+}
+#pug-footer {
+  width: 18%;
+}
+
+/* find-pet page button styling */
+.submit-button {
+  background-color: #ffc300;
+  border: #ffc300 solid 2px;
+  color: #003566;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.reset-button {
+  background-color: #ffc300;
+  border: #ffc300 solid 2px;
+  color: #003566;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.submit-button:hover {
+  background-color: #003566;
+  color: #ffc300;
+}
+
+.reset-button:hover {
+  background-color: #003566;
+  color: #ffc300;
+  
+}
+
+/* scrollbar Styling */
+.content-area::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #003566;
+}
+
+.content-area::-webkit-scrollbar {
+  width: 12px;
+  background-color: #003566;
+}
+
+.content-area::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffc300;
+}
+
+.content-area::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
+}
+
+.content-area::-webkit-scrollbar-thumb:hover {
+  background-color: #001d3d;
+}
+
+/* styling for the contact-us page */
+.personal-details {
+  padding: 10px;
+  font-size: large;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+}
+
+/* browse page styling */
+.petBrowse {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.petBrowseImage {
+  border-radius: 10px;
+}
+
+#browseTable {
+  width: 90%;
+  text-align: center;
+}

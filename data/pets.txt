@@ -1,4 +1,4 @@
 
 dog:labrador:senior:female:#:other-cats:small-children:He is fluffy.:Conner:McGregor:mysticmac@gmail.com
-dog:pomeranian:senior:female:other-dogs:#:small-children:He likes playing fetch with a frisbee.:Tom:Cruise:thomascruise1990@gmail.com
+dog:pomeranian:senior:male:other-dogs:#:small-children:He likes playing fetch with a frisbee.:Tom:Cruise:thomascruise1990@gmail.com
 cat:mix-breed:young:female:other-dogs:#:#:Do not leave any LEGO bricks near her, she will eat them.:Harold:Lewis:harrylewis123@gmail.com
